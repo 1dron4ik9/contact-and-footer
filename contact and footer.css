@@ -1,0 +1,165 @@
+
+input[type=text] {
+ width: 100%;
+    padding: 12px;
+    border: 1px solid #101526;
+    margin-top: 6px;
+    margin-bottom: 11px;
+    background-color:#0029ff ;
+    color: white; 
+    height: 20px;
+    width: calc(16% - 20px);
+    margin-left: 70px;
+    margin-right: 71px;
+border-radius: 10px;
+font-family: "Montserrat";
+font-size: 15px;
+font-weight: bold;
+
+}
+
+input[type=textb]{
+width: 100%;
+    padding: 12px;
+    border: 1px solid #101526;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    background-color:#0029ff ;
+    color: white; 
+       height: 20px;
+    width: calc(40% - 20px);
+    border-radius: 10px;
+font-family: "Montserrat";
+font-size: 15px;
+font-weight: bold;
+        display: flex;
+    flex-direction: column;
+    margin-left: auto ;
+    margin-right: auto;
+
+
+
+}
+
+input[type=submit] {
+    width: 16%;
+    background-color: #0029ff;
+    color: white;
+    padding: 21px;
+    border: none;
+    cursor: pointer;
+    height: 33px;
+    margin-top: 7px;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+margin: auto;
+border-radius: 2em;
+font-family: "Montserrat";
+font-size: 15px;
+font-weight: bolder;
+
+
+}
+
+
+
+
+.container {
+    border-radius: 5px;
+    padding: 10px;
+    justify-content: center;
+
+}
+input::-webkit-input-placeholder { color: white; }
+
+
+
+
+p:first-letter{
+    color:#0029ff ;
+}
+.second-word {
+  color: #0029ff;
+}
+.forma{
+
+justify-content: center;
+text-align:center
+
+   
+
+
+
+}
+body{
+ 
+ 
+    background-color: #101526;
+
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    position: relative;
+    min-height: calc(98vh - 0px);
+    margin: auto;
+    padding: auto;
+
+
+
+}
+@font-face{
+    font-family: "Montserrat";
+    src: url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Roboto:wght@400;500;700&display=swap");
+}
+h2{
+    font-family: "Montserrat";
+    font-size: 40px;
+   font-weight: bold;
+   color: white;
+}
+.footer{
+    background: black;
+
+    height: 80px;
+   position:fixed;
+   left:0px;
+   bottom:0px;
+
+   width:100%;
+
+
+
+
+
+}
+.footer-content{
+    color: white;
+    font-family: "Montserrat";
+    display: flex;    
+    align-items: center;
+
+    justify-content: space-around;
+
+}
+.content{
+
+   
+
+
+
+
+
+}
+.social{
+ font-size: 45px;
+ margin-top: 10px;
+ word-spacing: 15px;
+
+
+}
+i:hover{
+
+    color: #0029ff;
+
+}
